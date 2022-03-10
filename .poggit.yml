@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RemBog/CustomJoinLeaveMessage
+build-by-default: true
+branches:
+- main
+projects:
+  CustomJoinLeaveMessage:
+    path: ""
+...
