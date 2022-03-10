@@ -1,0 +1,20 @@
+#CustomJoinLeaveMessage par RemBog 
+
+
+#{name} ou {player} : nom du joueur qui rejoint ou quitte
+#{line} : passer à la ligne
+#{online} : nombre de joueurs en ligne
+#{max_online} : nombre maximum de joueur sur le serveur
+
+
+#Message quand un joueur rejoint le serveur pour la première fois
+join-message-new-player: "§9Bienvenue à §l{name} §r§9qui rejoint le serveur pour la première fois!"
+
+#Message quand un joueur rejoint le serveur si ce n'est pas la première fois qu'il rejoint
+join-message: "§a§l{player}§r §aa rejoint le serveur ! §r§o({online}/{max_online})§r"
+
+#Message quand un joueur quitté le serveur
+leave-message: "§a§l{player}§r §aa quitté le serveur. §r§o({online}/{max_online})§r"
+
+
+#Si vous avez une suggestion pour le plugin : RemedialBog88#6549
