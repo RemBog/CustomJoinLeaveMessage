@@ -1,0 +1,17 @@
+#CustomJoinLeaveMessage by RemBog 
+
+
+#{name} or {player} : name of player joining or leaving 
+#{line} : skip to line 
+#{online} : number of players connected to the server  
+#{max_online} : maximum number of players on the server 
+
+
+#Message when a player joins the server for the first time 
+join-message-new-player: "§9welcome to §l{name} §r§9who is joining the server for the first time !"
+
+#Message when a player joins the server if it's not their first time joining 
+join-message: "§a§l{player}§r §ajoin the server ! §r§o({online}/{max_online})§r"
+
+#Message when a player leaves the server 
+leave-message: "§a§l{player}§r §aleft the server . §r§o({online}/{max_online})§r"
