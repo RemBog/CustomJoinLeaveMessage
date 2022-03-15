@@ -17,8 +17,6 @@ class Main extends PluginBase implements Listener
         self::$instance = $this; 
         $this->initResources();
         
-        $this->getLogger()->info("Par RemBog");
-        
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getServer()->getPluginManager()->registerEvents(new PlayerEvents(), $this);
     }
@@ -39,7 +37,7 @@ class Main extends PluginBase implements Listener
         @$this->saveResource("config.yml"); 
         if (!file_exists($this->getDataFolder() . "config.yml")) 
         {
-            $this->getLogger()->error("Impossible de charger la configuration, veuillez vérifier que le fichier existe!"); 
+            $this->getLogger()->error("Unable to load configuration, please verify that the file exists!"); 
             return false;
         } 
         return true; 
